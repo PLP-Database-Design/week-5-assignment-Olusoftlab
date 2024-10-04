@@ -1,0 +1,24 @@
+<table>
+
+     <thead>
+          <tr>
+              <th>First_name</th>
+              <th>Last naame</th>
+              <th>Prrovider Specialty</th>
+          </tr>
+     </thead>
+     
+     <tbody>
+          
+             <%result.forEach(row=>{%>
+                <tr>
+                        <td><%=row.First_name%></td>
+                        <td><%=row.Last_name%></td>
+                        <td><%=row.Povider_specialty%></td>
+                </tr>              
+             <%});%>  
+
+     </tbody>
+
+
+</table>
